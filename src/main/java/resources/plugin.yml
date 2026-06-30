@@ -1,0 +1,9 @@
+name: MYINGPLITEXEL
+version: '1.0-SNAPSHOT'
+main: fr.vertex.MYINGLITEXEL.MYINGLITEXEL
+api-version: '26.2'
+author: Vertex
+description: A core for MYINGLITEXEL
+
+depend: [ModelEngine]
+softdepend: [ItemAdder,Nexo]

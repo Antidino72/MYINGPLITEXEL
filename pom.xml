@@ -28,6 +28,14 @@
             <name>Lumine Public</name>
             <url>https://mvn.lumine.io/repository/maven-public/</url>
         </repository>
+        <repository>
+            <id>triumphteam-repo</id>
+            <url>https://repo.triumphteam.dev/artifactory/main/</url>
+        </repository>
+        <repository>
+            <id>matteodev</id>
+            <url>https://maven.devs.beer/</url>
+        </repository>
     </repositories>
 
     <dependencies>
@@ -46,7 +54,12 @@
             <scope>provided</scope>
         </dependency>
         <!-- ItemAdder -->
-
+        <dependency>
+            <groupId>beer.devs</groupId>
+            <artifactId>itemsadder-api</artifactId>
+            <version>4.0.17</version> <!-- voir lien ci-dessous -->
+            <scope>provided</scope>
+        </dependency>
 
         <!-- ModelEngine -->
         <dependency>
